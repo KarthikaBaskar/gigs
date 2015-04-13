@@ -1,0 +1,574 @@
+/* Empty. Add your own CSS if you like */
+@font-face {
+    font-family: 'robotobold';
+    src: url('fonts/Roboto-Bold-webfont.eot');
+    src: url('fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Bold-webfont.woff2') format('woff2'),
+         url('fonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('fonts/Roboto-Light-webfont.eot');
+    src: url('fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Light-webfont.woff2') format('woff2'),
+         url('fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'source_sans_prolight';
+  src: url('fonts/sourcesanspro-light-webfont.eot');
+  src: url('fonts/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/sourcesanspro-light-webfont.woff') format('woff'), url('fonts/sourcesanspro-light-webfont.ttf') format('truetype'), url('fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_proextralight';
+  src: url('fonts/sourcesanspro-extralight-webfont.eot');
+  src: url('fonts/sourcesanspro-extralight-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/sourcesanspro-extralight-webfont.woff') format('woff'), url('fonts/sourcesanspro-extralight-webfont.ttf') format('truetype'), url('fonts/sourcesanspro-extralight-webfont.svg#source_sans_proextralight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_proregular';
+  src: url('fonts/sourcesanspro-regular-webfont.eot');
+  src: url('fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/sourcesanspro-regular-webfont.woff') format('woff'), url('fonts/sourcesanspro-regular-webfont.ttf') format('truetype'), url('fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_prosemibold';
+  src: url('fonts/sourcesanspro-semibold-webfont.eot');
+  src: url('fonts/sourcesanspro-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/sourcesanspro-semibold-webfont.woff') format('woff'), url('fonts/sourcesanspro-semibold-webfont.ttf') format('truetype'), url('fonts/sourcesanspro-semibold-webfont.svg#source_sans_prosemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_probold';
+  src: url('fonts/sourcesanspro-bold.eot');
+  src: url('fonts/sourcesanspro-bold.eot?#iefix') format('embedded-opentype'), url('fonts/sourcesanspro-bold.woff') format('woff'), url('fonts/sourcesanspro-bold.ttf') format('truetype'), url('fonts/sourcesanspro-bold.svg#source_sans_probold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FuturaStd-Light';
+  src: url('fonts/FuturaStd-Light.otf');
+  src: url('fonts/FuturaStd-Light.otf?#iefix') format('embedded-opentype'), url('fonts/FuturaStd-Light.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2{
+  font-size: 16px;
+  color: #5e350d;
+  margin-top: 5px;
+  font-family: 'source_sans_prosemibold';
+}
+.tabs-positive > .tabs, .tabs.tabs-positive
+{
+    background: #ffd34e;
+  border-color: #ffd34e;
+  position: absolute;
+  bottom:0;
+}
+.all_gig {
+    text-align: center;
+  border-bottom: 3px solid #db9e36;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+
+}
+.all_gig_active{
+  border-bottom: 3px solid #db9e36;
+  padding: 4px 10px;
+}
+.all_gig img{
+  width: 26px;
+  margin-top: -5px;
+}
+.all_gig a{
+  color: #5e350d;
+  font-family: 'source_sans_prosemibold';
+  font-size: 16px;
+    text-decoration: none;
+
+  }
+.send_bid_box{
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+.popup-container{
+    background: rgba(255, 255, 255, 0.66);
+}
+.popup-container .popup{
+  border-radius: 10px;
+  background-color: rgba(41, 41, 41, 0.94);
+}
+.popup-head{
+  border:none;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.popup-body span{
+  color: #fff;
+  text-align: center;
+}
+.popup-body{
+    text-align: center;
+      overflow: auto;
+}
+.button.button-positive{
+    border-color: rgba(12, 99, 238, 0);
+      background-color: rgba(12, 99, 238, 0);
+}
+.popup-title{
+  font-size: 18px;
+  color: #fff;
+  font-family: 'source_sans_prosemibold';
+}
+.login-icon{
+    padding: 9px 20px;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+    border:2px solid #fff;
+}
+.forget_pass{
+  float: right;
+  color: #dd8d0c;
+  font-size: 14px;
+  padding-right: 20px;
+}
+.login_box .login_email{
+  width: 100%;
+  background: rgba(255, 255, 255, 0.03);
+  padding-left:15px;
+}
+.login_box{
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 5px 1px;
+  border-radius: 7px;
+}
+.tabs .tab-item .icon.tab_1 {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/tab_1.png');
+  background-size:contain;
+  height: 30px;
+  margin-top: 8px;
+}
+.tabs .tab-item .icon.tab_2 {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/tab_2.png');
+  background-size:contain;
+  height: 30px;
+  margin-top: 8px;
+}
+.tabs .tab-item .icon.tab_3{
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/tab_3.png');
+  background-size:contain;
+  height: 30px;
+  margin-top: 8px;
+}
+.browse_list_img { 
+  max-width: 55px;
+  max-height: 55px;
+  border-radius: 50%;
+}
+.browse_p{ 
+  cursor: pointer;
+  font-size: 14px;
+  color: #db9e36;}
+.browse_hr{  
+  border: none;
+  border-top: 1px solid #db9e3e;
+  margin-top: 0px;}  
+.bid_btn{
+  float: right;
+  background: #ec6b39;
+  padding: 6px;
+  width: 90px;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  border: 2px solid #ffd34e;
+  cursor: pointer;
+}
+.post_gig_2{
+  font-family: 'source_sans_prosemibold';
+  background: #d59209;
+  padding: 10px;
+  width: 135px;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  border: 2px solid #ffd34e;
+  cursor: pointer;
+}
+
+.send_btn{
+  float: right;
+  background: #ffb03b;
+  padding: 6px;
+  width: 90px;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  border: 2px solid #ffd34e;}
+
+.browse_row{
+  border-bottom: 3px solid #db9e36;
+  padding: 15px 8px;
+  margin-bottom: 15px;
+}
+.browse_textarea{  
+  width: 100%;
+  border: 1px solid #ffd34e;
+  border-radius: 8px;
+  padding: 5px;
+  color: #ec6b39;
+}
+.padding .profile_input{
+ color: #545454;
+  font-size: 20px;
+}
+#profile_wrapper{
+  background:url('../img/person1.jpg') center center;background-size:cover;
+     -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+    opacity: 0.4;
+}
+#browse_input{
+  width: 100%;
+  border: 1px solid #ffd34e;
+  border-radius: 8px;
+  padding: 5px;
+  color: #ec6b39;
+  }
+.bar.bar-positive{background-color: #ffd34e;border-color: #ffd34e;}
+.post_head{ 
+  font-family: 'source_sans_probold';
+  font-size: 20px;
+  border-bottom: 1px solid #ffd34e;
+  padding-bottom: 8px;
+}
+.sucess_p{
+  font-size: 20px;
+  color: #fff;
+  font-family: 'source_sans_prolight';
+  padding: 15px 40px;
+  line-height: 125%;
+}
+.post_span{
+  float:left;font-family: 'source_sans_prosemibold';margin-right: 4px;
+  margin-top: 7px;
+  color: #5e350d;
+}
+.padding .post_input{
+  border: 1px solid #FFD34E;
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+}
+#post_input{
+  border: 1px solid #FFD34E;
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+}
+.post_gig_check{
+  padding-left: 50px;
+  border: none;
+  font-size: 16px;
+  color: #ffd34e;
+  font-family: 'source_sans_probold';
+}
+#post_img{
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+.msg_name{
+  font-family: 'source_sans_probold';
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+
+}
+.item{ border-color: #ffd34e;}
+.gigster_chat .msg_sender_name{
+  position: absolute;
+  bottom: 0px;
+  left: 12px;
+  font-size: 14px;
+}
+.item-avatar .item-content{padding-left: 90px; padding-top: 10px;}
+.gigster_chat{
+     border-left: medium none;
+    border-right: medium none;
+    border-top: medium none;
+    border-bottom: 1px solid #eed1a0;
+    margin: 0 10px;
+}
+.skill_p{
+  font-size:11px;
+  margin-left:28px;
+  margin-top:1px;
+  font-family: 'source_sans_proregular';
+}
+.msg_box_span{
+  display: inline-block;
+  margin-left: 9px;
+  font-size: 10px;
+  color: rgb(148, 147, 147);
+}
+
+.msg_box_2{
+  padding: 6px 6px 6px 4px;
+  background: #f1f1f1;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 13px;
+  float: right;
+}
+
+.msg_box_2:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 6px solid rgba(24, 27, 28, 0);
+  border-left: 6px solid #f1f1f1;
+  border-top: 6px solid transparent;
+  top: 84%;
+  right: 4px;
+  margin-left: -5px;
+  margin-top: -1px;
+};
+.padding #msg_send_box{
+  position: absolute;
+  bottom: 8px;
+  width: 95%;
+  border-radius: 3px;
+  padding: 5px;
+  border: 2px solid rgb(255, 211, 78);
+}
+.msg_box_1{
+  padding: 6px 6px 6px 4px;
+  background: rgb(255, 211, 78);
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 13px;
+}
+.msg_box_1:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 6px solid rgba(24, 27, 28, 0);
+  border-right: 6px solid rgb(255, 211, 78);
+  border-top: 6px solid transparent;
+  top: 62%;
+  left: 9px;
+  margin-left: -5px;
+  margin-top: -1px;
+};
+.popup{
+    background: #232323;
+}
+.trash{
+  width: 30px;
+  float: right;
+}
+/*Bidding Section*/
+.bidding-pages{
+  font-family: 'source_sans_prosemibold';
+}
+.bidding-pages ul li{
+  margin-top:15px;
+  margin-left:20px;
+  margin-bottom:10px;
+  font-size: 17px;
+  padding:5px;
+  display: inline-block;
+}
+.bidding-pages a{
+  text-decoration: none;
+  color:#5E350D;
+}
+.bidding-pages a:hover{
+  border-bottom: 3px solid #DB9E36;
+}
+
+.bidding-border{
+  border-bottom: 3px solid #DB9E36;
+}
+.profile-icon{
+  float:left;
+  border-radius: 50%;
+  width:20%;
+  height:20%;
+  margin-left:10px;
+  padding-top:10px;
+}
+.content-bid{
+  width:66%; 
+  float:left;
+  margin-left:15px;
+  margin-top:-9px;
+}
+.title-bid{
+  font-family: 'Roboto Condensed';
+  color:#5E350D;
+  font-weight:bold;
+  font-size:11px;
+}
+.content{
+  text-align:justify;
+  font-size: 10px
+}
+.border-line{
+  margin-top:-5px;
+  border-bottom: 1px solid #db9e36;
+}
+.social-networks ul li{
+  display:inline-block;  
+}
+
+.social-networks ul li a{
+  padding-right:10px; 
+}
+
+.social-networks img{
+  width:15%;
+  height:13%;
+}
+
+.bid-button{
+  position:absolute;
+  margin-top:-39px;
+  right:24px;
+  border-top-width:2px;
+  border-bottom-width:2px;
+  border-left-width:2px;
+  border-right-width:2px;
+  border-top-left-radius:16px;
+  border-top-right-radius:16px;
+  border-bottom-right-radius:16px;
+  border-bottom-left-radius:16px;
+  border-color:#ffd34e;
+  border-style:solid;
+  background-color:#ec6b39;
+  color:#fcfff5;
+  font-size:14px;
+  font-weight:bold;
+  font-family:'Roboto';
+  text-align:center;
+  width:64px;
+  height:32px;
+}
+
+.search-icon{
+  width:42px;
+  height:31px;
+  position:absolute;
+  top:10px;
+  left:250px
+}
+
+.user-name{
+  font-weight: bold; 
+  color: rgb(94, 53, 13);
+  font-size:12px;
+  right:60px;
+  position:relative;
+  top:80px;
+}
+
+.user-bids{
+  margin-bottom:10px;
+}
+
+.content-div{
+  text-align:left;
+  font-family:Arial;
+  width:217px;
+  height:47px;
+}
+
+.content-span{
+  font-size: 14px;
+  font-weight: bold; 
+  color: rgb(94, 53, 13);
+}
+
+.content-desc{
+  color: rgb(94, 53, 13);
+}
+
+.bid-text{
+  position:absolute;
+  top:3px;
+  left:15px;
+}
+
+.bid-sent{
+  position:absolute;
+  margin-top:-39px;
+  right:24px;
+  border-top-width:2px;
+  border-bottom-width:2px;
+  border-left-width:2px;
+  border-right-width:2px;
+  border-top-left-radius:16px;
+  border-top-right-radius:16px;
+  border-bottom-right-radius:16px;
+  border-bottom-left-radius:16px;
+  border-color:#ffd34e;
+  border-style:solid;
+  background-color:rgba(255,176,59,0.75);
+  color:#5e350d;
+  font-size:12px;
+  font-weight:bold;
+  font-family:'Roboto';
+  text-align:center;
+  width:64px;
+  height:32px;
+  position:absolute;
+}
+
+.sent-text{
+  margin-top:2px;
+}
+
+.trash{
+  margin-left:31px;
+}

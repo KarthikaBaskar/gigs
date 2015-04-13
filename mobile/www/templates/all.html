@@ -1,0 +1,21 @@
+<ion-view view-title="tab-dash" ng-controller="allGigs">
+  <ion-content class="padding" style="padding: 15px 0;">
+   <div class="row browse_row" ng-repeat="gig in data">
+    <div class="col col-20" style="padding: 0;">
+      <img src="img/person1.jpg" class="browse_list_img" >
+      <h2>{{ gig.username }}</h2>
+    </div>
+    <div class="col col-80"> 
+    
+      <h2 style="display: inline-block;">{{ gig.prjTitle }}</h2>
+      <h2 style="display: inline-block;float:right;margin-top: 0;">${{ gig.proposedbudget }}</h2>
+      <hr class="browse_hr">
+      <p class="browse_p">{{ gig.prjdesc }}</p>
+      <img src="img/fb.jpg">
+      <img src="img/google.jpg" style="margin-left: 5px;">
+      <a class="bid_btn"href="">Bid</a>
+    </div>
+   </div>
+
+  </ion-content>
+</ion-view>
